@@ -1,0 +1,13 @@
+BasicBlock# = 1
+BasicBlock# = 2
+BasicBlock# = 3
+BasicBlock# = 0
+MIDDLE_QUEUE: 1627938549.112
+MIDDLE_DEQUE: 1627938549.112	0
+MIDDLE_TASK: 1627938549.113
+Writing index for 1 at 1077
+Wrote 1 tasks to index
+Tasks Received: 1
+Tasks Written: 1
+Tasks Remaining: 0
+MIDDLE_END: 1627938549.113
