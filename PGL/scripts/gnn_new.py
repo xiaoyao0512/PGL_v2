@@ -151,9 +151,9 @@ print(num_instances, train_size, test_size)
 
 # Create model
 
-kfold = 8
-if (num_instances % kfold != 0):
-    assert False, "Please select a new kfold value."
+kfold = 6
+#if (num_instances % kfold != 0):
+#    assert False, "Please select a new kfold value."
 num_per_fold = int(num_instances / kfold)
 batch_size = 64
 
