@@ -192,7 +192,6 @@ def nodeFeatures(g, types):
 		return multifractal.multifractal(g)
 
 def vectorRead(filename):
-	assert os.path.isfile(filename)
 	temp = []
 	fr = open(filename, 'r')
 	for line in fr:
@@ -205,8 +204,7 @@ def vectorWrite(lst, filename):
 	assert len(lst) != 0
 	fw = open(filename, 'w')
 	for num in lst:
-		fw.write("{}
-".format(num))
+		fw.write("{}\n".format(num))
 	fw.close()
 
 class GraphDataset(Dataset):
